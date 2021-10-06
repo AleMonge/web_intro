@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="styles.css" type="text/css">
+   </head>
+   <body>
+    <button type="button" onclick="myFunction()" >Jugador 1: Ale</button>
+   </body>
+   <script>
+       function myFunction() {
+            var name = prompt('Enter a new name');
+
+            var myButton = document.querySelector('button');
+            myButton.textContent = 'Jugador 1: ' + name;
+       }
+   </script>
+</html>
